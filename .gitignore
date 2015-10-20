@@ -7,13 +7,15 @@
 # Ignore bundler config.
 /first_app/.bundle
 /toy_app/.bundle
+/sample_app/.bundle
 
 # Ignore the default SQLite database.
 /first_app/db/*.sqlite3
 /first_app/db/*.sqlite3-journal
-
 /toy_app/db/*.sqlite3
 /toy_app/db/*.sqlite3-journal
+/sample_app/db/*.sqlite3
+/sample_app/db/*.sqlite3-journal
 
 
 # Ignore all logfiles and tempfiles.
@@ -23,9 +25,13 @@
 /toy_app/log/*.log
 /toy_app/tmp
 
+/sample_app/log/*.log
+/sample_app/tmp
+
 # Ignore other unneeded files.
 /first_app/doc/
 /toy_app/doc/
+/sample_app/doc/
 
 *.swp
 *~
